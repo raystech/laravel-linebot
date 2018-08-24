@@ -16,17 +16,17 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\MessageBuilder;
+namespace Raystech\Linebot\Linebot\MessageBuilder;
 
-use LINE\LINEBot\Constant\MessageType;
-use LINE\LINEBot\ImagemapActionBuilder;
-use LINE\LINEBot\MessageBuilder;
-use LINE\LINEBot\MessageBuilder\Imagemap\BaseSizeBuilder;
+use Raystech\Linebot\Linebot\Constant\MessageType;
+use Raystech\Linebot\Linebot\ImagemapActionBuilder;
+use Raystech\Linebot\Linebot\MessageBuilder;
+use Raystech\Linebot\Linebot\MessageBuilder\Imagemap\BaseSizeBuilder;
 
 /**
  * A builder class for imagemap message.
  *
- * @package LINE\LINEBot\MessageBuilder
+ * @package Raystech\Linebot\Linebot\MessageBuilder
  */
 class ImagemapMessageBuilder implements MessageBuilder
 {

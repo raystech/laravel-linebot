@@ -16,9 +16,9 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\MessageBuilder;
+namespace Raystech\Linebot\Linebot\MessageBuilder;
 
-use LINE\LINEBot\MessageBuilder;
+use Raystech\Linebot\Linebot\MessageBuilder;
 
 class MultiMessageBuilder implements MessageBuilder
 {

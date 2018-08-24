@@ -16,14 +16,14 @@
  * under the License.
  */
 
-namespace LINE\LINEBot;
+namespace Raystech\Linebot\Linebot;
 
-use LINE\LINEBot\Exception\InvalidSignatureException;
+use Raystech\Linebot\Linebot\Exception\InvalidSignatureException;
 
 /**
  * A validator class of signature.
  *
- * @package LINE\LINEBot
+ * @package Raystech\Linebot\Linebot
  */
 class SignatureValidator
 {

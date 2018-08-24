@@ -16,12 +16,12 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\HTTPClient;
+namespace Raystech\Linebot\Linebot\HTTPClient;
 
 /**
  * cURL session manager
  *
- * @package LINE\LINEBot\HTTPClient
+ * @package Raystech\Linebot\Linebot\HTTPClient
  */
 class Curl
 {

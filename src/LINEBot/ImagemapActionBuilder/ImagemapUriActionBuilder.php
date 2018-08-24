@@ -16,15 +16,15 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\ImagemapActionBuilder;
+namespace Raystech\Linebot\Linebot\ImagemapActionBuilder;
 
-use LINE\LINEBot\Constant\ActionType;
-use LINE\LINEBot\ImagemapActionBuilder;
+use Raystech\Linebot\Linebot\Constant\ActionType;
+use Raystech\Linebot\Linebot\ImagemapActionBuilder;
 
 /**
  * A builder class for URI action of imagemap.
  *
- * @package LINE\LINEBot\ImagemapActionBuilder
+ * @package Raystech\Linebot\Linebot\ImagemapActionBuilder
  */
 class ImagemapUriActionBuilder implements ImagemapActionBuilder
 {

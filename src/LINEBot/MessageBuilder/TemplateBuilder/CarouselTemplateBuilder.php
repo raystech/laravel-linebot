@@ -16,15 +16,15 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\MessageBuilder\TemplateBuilder;
+namespace Raystech\Linebot\Linebot\MessageBuilder\TemplateBuilder;
 
-use LINE\LINEBot\Constant\TemplateType;
-use LINE\LINEBot\MessageBuilder\TemplateBuilder;
+use Raystech\Linebot\Linebot\Constant\TemplateType;
+use Raystech\Linebot\Linebot\MessageBuilder\TemplateBuilder;
 
 /**
  * A builder class for carousel template.
  *
- * @package LINE\LINEBot\MessageBuilder\TemplateBuilder
+ * @package Raystech\Linebot\Linebot\MessageBuilder\TemplateBuilder
  */
 class CarouselTemplateBuilder implements TemplateBuilder
 {

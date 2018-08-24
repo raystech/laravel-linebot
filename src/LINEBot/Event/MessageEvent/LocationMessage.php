@@ -16,14 +16,14 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\Event\MessageEvent;
+namespace Raystech\Linebot\Linebot\Event\MessageEvent;
 
-use LINE\LINEBot\Event\MessageEvent;
+use Raystech\Linebot\Linebot\Event\MessageEvent;
 
 /**
  * A class that represents the message event of location.
  *
- * @package LINE\LINEBot\Event\MessageEvent
+ * @package Raystech\Linebot\Linebot\Event\MessageEvent
  */
 class LocationMessage extends MessageEvent
 {

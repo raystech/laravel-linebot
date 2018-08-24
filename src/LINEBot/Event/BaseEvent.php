@@ -16,17 +16,17 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\Event;
+namespace Raystech\Linebot\Linebot\Event;
 
-use LINE\LINEBot\Constant\EventSourceType;
-use LINE\LINEBot\Exception\InvalidEventSourceException;
+use Raystech\Linebot\Linebot\Constant\EventSourceType;
+use Raystech\Linebot\Linebot\Exception\InvalidEventSourceException;
 
 /**
  * Base class of each events.
  *
  * Don't instantiate this class individually.
  *
- * @package LINE\LINEBot\Event
+ * @package Raystech\Linebot\Linebot\Event
  */
 class BaseEvent
 {

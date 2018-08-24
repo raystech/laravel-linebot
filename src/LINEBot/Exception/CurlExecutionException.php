@@ -16,12 +16,12 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\Exception;
+namespace Raystech\Linebot\Linebot\Exception;
 
 /**
  * An exception class that is raised when cURL execution is failed.
  *
- * @package LINE\LINEBot\Exception
+ * @package Raystech\Linebot\Linebot\Exception
  */
 class CurlExecutionException extends \Exception
 {

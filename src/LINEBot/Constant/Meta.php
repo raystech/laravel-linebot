@@ -16,7 +16,7 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\Constant;
+namespace Raystech\Linebot\Linebot\Constant;
 
 class Meta
 {

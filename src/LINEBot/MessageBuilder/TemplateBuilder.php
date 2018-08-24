@@ -16,12 +16,12 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\MessageBuilder;
+namespace Raystech\Linebot\Linebot\MessageBuilder;
 
 /**
  * The interface that has a responsibility to build template message.
  *
- * @package LINE\LINEBot
+ * @package Raystech\Linebot\Linebot
  */
 interface TemplateBuilder
 {

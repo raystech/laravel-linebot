@@ -16,12 +16,12 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\Event;
+namespace Raystech\Linebot\Linebot\Event;
 
 /**
  * A class that represents the event of postback.
  *
- * @package LINE\LINEBot\Event
+ * @package Raystech\Linebot\Linebot\Event
  */
 class PostbackEvent extends BaseEvent
 {

@@ -16,11 +16,11 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\Exception;
+namespace Raystech\Linebot\Linebot\Exception;
 
 /**
  * An exception class that is raised when signature is invalid.
- * @package LINE\LINEBot\Exception
+ * @package Raystech\Linebot\Linebot\Exception
  */
 class InvalidSignatureException extends \Exception
 {

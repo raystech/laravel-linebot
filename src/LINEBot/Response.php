@@ -16,12 +16,12 @@
  * under the License.
  */
 
-namespace LINE\LINEBot;
+namespace Raystech\Linebot\Linebot;
 
 /**
  * A class represents API response.
  *
- * @package LINE\LINEBot
+ * @package Raystech\Linebot\Linebot
  */
 class Response
 {

@@ -16,12 +16,12 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\MessageBuilder\Imagemap;
+namespace Raystech\Linebot\Linebot\MessageBuilder\Imagemap;
 
 /**
  * A builder class for base size of imagemap.
  *
- * @package LINE\LINEBot\MessageBuilder\Imagemap
+ * @package Raystech\Linebot\Linebot\MessageBuilder\Imagemap
  */
 class BaseSizeBuilder
 {

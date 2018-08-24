@@ -16,16 +16,16 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\MessageBuilder\TemplateBuilder;
+namespace Raystech\Linebot\Linebot\MessageBuilder\TemplateBuilder;
 
-use LINE\LINEBot\Constant\TemplateType;
-use LINE\LINEBot\MessageBuilder\TemplateBuilder;
-use LINE\LINEBot\TemplateActionBuilder;
+use Raystech\Linebot\Linebot\Constant\TemplateType;
+use Raystech\Linebot\Linebot\MessageBuilder\TemplateBuilder;
+use Raystech\Linebot\Linebot\TemplateActionBuilder;
 
 /**
  * A builder class for button template message.
  *
- * @package LINE\LINEBot\MessageBuilder\TemplateBuilder
+ * @package Raystech\Linebot\Linebot\MessageBuilder\TemplateBuilder
  */
 class ButtonTemplateBuilder implements TemplateBuilder
 {

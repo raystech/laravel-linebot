@@ -16,12 +16,12 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\Event;
+namespace Raystech\Linebot\Linebot\Event;
 
 /**
  * A class that represents the event of joining.
  *
- * @package LINE\LINEBot\Event
+ * @package Raystech\Linebot\Linebot\Event
  */
 class JoinEvent extends BaseEvent
 {

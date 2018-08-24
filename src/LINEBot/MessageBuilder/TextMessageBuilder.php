@@ -16,15 +16,15 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\MessageBuilder;
+namespace Raystech\Linebot\Linebot\MessageBuilder;
 
-use LINE\LINEBot\Constant\MessageType;
-use LINE\LINEBot\MessageBuilder;
+use Raystech\Linebot\Linebot\Constant\MessageType;
+use Raystech\Linebot\Linebot\MessageBuilder;
 
 /**
  * A builder class for text message.
  *
- * @package LINE\LINEBot\MessageBuilder
+ * @package Raystech\Linebot\Linebot\MessageBuilder
  */
 class TextMessageBuilder implements MessageBuilder
 {

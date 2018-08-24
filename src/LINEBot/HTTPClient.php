@@ -16,14 +16,14 @@
  * under the License.
  */
 
-namespace LINE\LINEBot;
+namespace Raystech\Linebot\Linebot;
 
 /**
  * The interface that represents HTTP client of LINE Messaging API.
  *
  * If you want to switch using HTTP client, please implement this.
  *
- * @package LINE\LINEBot
+ * @package Raystech\Linebot\Linebot
  */
 interface HTTPClient
 {

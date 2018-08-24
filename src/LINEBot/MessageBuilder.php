@@ -16,12 +16,12 @@
  * under the License.
  */
 
-namespace LINE\LINEBot;
+namespace Raystech\Linebot\Linebot;
 
 /**
  * The interface that has a responsibility to build message.
  *
- * @package LINE\LINEBot
+ * @package Raystech\Linebot\Linebot
  */
 interface MessageBuilder
 {

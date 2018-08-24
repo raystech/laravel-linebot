@@ -16,15 +16,15 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\TemplateActionBuilder;
+namespace Raystech\Linebot\Linebot\TemplateActionBuilder;
 
-use LINE\LINEBot\Constant\ActionType;
-use LINE\LINEBot\TemplateActionBuilder;
+use Raystech\Linebot\Linebot\Constant\ActionType;
+use Raystech\Linebot\Linebot\TemplateActionBuilder;
 
 /**
  * A builder class for URI action.
  *
- * @package LINE\LINEBot\TemplateActionBuilder
+ * @package Raystech\Linebot\Linebot\TemplateActionBuilder
  */
 class UriTemplateActionBuilder implements TemplateActionBuilder
 {

@@ -16,12 +16,12 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\ImagemapActionBuilder;
+namespace Raystech\Linebot\Linebot\ImagemapActionBuilder;
 
 /**
  * A builder class for area of imagemap.
  *
- * @package LINE\LINEBot\ImagemapActionBuilder
+ * @package Raystech\Linebot\Linebot\ImagemapActionBuilder
  */
 class AreaBuilder
 {

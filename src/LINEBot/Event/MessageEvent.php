@@ -16,14 +16,14 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\Event;
+namespace Raystech\Linebot\Linebot\Event;
 
 /**
  * A base class of message event.
  *
  * Don't instantiate this class individually.
  *
- * @package LINE\LINEBot\Event
+ * @package Raystech\Linebot\Linebot\Event
  */
 class MessageEvent extends BaseEvent
 {

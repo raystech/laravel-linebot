@@ -16,41 +16,41 @@
  * under the License.
  */
 
-namespace LINE\LINEBot\Event\Parser;
+namespace Raystech\Linebot\Linebot\Event\Parser;
 
-use LINE\LINEBot\Event\MessageEvent;
-use LINE\LINEBot\Event\MessageEvent\UnknownMessage;
-use LINE\LINEBot\Event\UnknownEvent;
-use LINE\LINEBot\Exception\InvalidEventRequestException;
-use LINE\LINEBot\Exception\InvalidSignatureException;
-use LINE\LINEBot\SignatureValidator;
+use Raystech\Linebot\Linebot\Event\MessageEvent;
+use Raystech\Linebot\Linebot\Event\MessageEvent\UnknownMessage;
+use Raystech\Linebot\Linebot\Event\UnknownEvent;
+use Raystech\Linebot\Linebot\Exception\InvalidEventRequestException;
+use Raystech\Linebot\Linebot\Exception\InvalidSignatureException;
+use Raystech\Linebot\Linebot\SignatureValidator;
 
 class EventRequestParser
 {
     private static $eventType2class = [
-        'message' => 'LINE\LINEBot\Event\MessageEvent',
-        'follow' => 'LINE\LINEBot\Event\FollowEvent',
-        'unfollow' => 'LINE\LINEBot\Event\UnfollowEvent',
-        'join' => 'LINE\LINEBot\Event\JoinEvent',
-        'leave' => 'LINE\LINEBot\Event\LeaveEvent',
-        'postback' => 'LINE\LINEBot\Event\PostbackEvent',
-        'beacon' => 'LINE\LINEBot\Event\BeaconDetectionEvent',
+        'message' => 'Raystech\Linebot\Linebot\Event\MessageEvent',
+        'follow' => 'Raystech\Linebot\Linebot\Event\FollowEvent',
+        'unfollow' => 'Raystech\Linebot\Linebot\Event\UnfollowEvent',
+        'join' => 'Raystech\Linebot\Linebot\Event\JoinEvent',
+        'leave' => 'Raystech\Linebot\Linebot\Event\LeaveEvent',
+        'postback' => 'Raystech\Linebot\Linebot\Event\PostbackEvent',
+        'beacon' => 'Raystech\Linebot\Linebot\Event\BeaconDetectionEvent',
     ];
 
     private static $messageType2class = [
-        'text' => 'LINE\LINEBot\Event\MessageEvent\TextMessage',
-        'image' => 'LINE\LINEBot\Event\MessageEvent\ImageMessage',
-        'video' => 'LINE\LINEBot\Event\MessageEvent\VideoMessage',
-        'audio' => 'LINE\LINEBot\Event\MessageEvent\AudioMessage',
-        'location' => 'LINE\LINEBot\Event\MessageEvent\LocationMessage',
-        'sticker' => 'LINE\LINEBot\Event\MessageEvent\StickerMessage',
+        'text' => 'Raystech\Linebot\Linebot\Event\MessageEvent\TextMessage',
+        'image' => 'Raystech\Linebot\Linebot\Event\MessageEvent\ImageMessage',
+        'video' => 'Raystech\Linebot\Linebot\Event\MessageEvent\VideoMessage',
+        'audio' => 'Raystech\Linebot\Linebot\Event\MessageEvent\AudioMessage',
+        'location' => 'Raystech\Linebot\Linebot\Event\MessageEvent\LocationMessage',
+        'sticker' => 'Raystech\Linebot\Linebot\Event\MessageEvent\StickerMessage',
     ];
 
     /**
      * @param string $body
      * @param string $channelSecret
      * @param string $signature
-     * @return \LINE\LINEBot\Event\BaseEvent[] array
+     * @return \Raystech\Linebot\Linebot\Event\BaseEvent[] array
      * @throws InvalidEventRequestException
      * @throws InvalidSignatureException
      */
