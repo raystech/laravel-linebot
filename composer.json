@@ -34,7 +34,7 @@
                 "Raysctech\\Linebot\\LinebotServiceProvider"
             ],
             "aliases": {
-                "laravel-linebot": "Raysctech\\Linebot\\Facades\\Linebot"
+                "Linebot": "Raysctech\\Linebot\\Facades\\Linebot"
             }
         }
     }
