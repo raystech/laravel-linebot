@@ -2,8 +2,8 @@
 
 // Available placeholders: raystech, laravel-linebot, raystech, laravel-linebot
 return [
-    'src/MyPackage.php' => 'src/laravel-linebot.php',
-    'config/mypackage.php' => 'config/laravel-linebot.php',
-    'src/Facades/MyPackage.php' => 'src/Facades/laravel-linebot.php',
-    'src/MyPackageServiceProvider.php' => 'src/laravel-linebotServiceProvider.php',
+    'src/MyPackage.php' => 'src/LINEBot.php',
+    'config/mypackage.php' => 'config/linebot.php',
+    'src/Facades/MyPackage.php' => 'src/Facades/LINEBot.php',
+    'src/MyPackageServiceProvider.php' => 'src/LINEBotServiceProvider.php',
 ];

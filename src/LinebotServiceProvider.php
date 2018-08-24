@@ -1,10 +1,10 @@
 <?php
 
-namespace Raystech\Linebot;
+namespace Raystech\LINEBot;
 
 use Illuminate\Support\ServiceProvider;
 
-class LinebotServiceProvider extends ServiceProvider
+class LINEBotServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
@@ -56,8 +56,8 @@ class LinebotServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/linebot.php', 'linebot');
 
         // Register the service the package provides.
-        $this->app->singleton('Linebot', function ($app) {
-            return new Linebot;
+        $this->app->singleton('LINEBot', function ($app) {
+            return new LINEBot;
         });
     }
 
@@ -68,6 +68,6 @@ class LinebotServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['Linebot'];
+        return ['LINEBot'];
     }
 }

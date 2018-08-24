@@ -1,10 +1,10 @@
 <?php
 
-namespace Raystech\Linebot\Facades;
+namespace Raystech\LINEBot\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Linebot extends Facade
+class LINEBot extends Facade
 {
     /**
      * Get the registered name of the component.

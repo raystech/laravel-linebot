@@ -1,6 +1,6 @@
 {
     "name": "raystech/laravel-linebot",
-    "description": "linebot api for latravel",
+    "description": "LINEBot api for laravel",
     "license": "MIT",
     "authors": [
         {
@@ -20,21 +20,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Raystech\\Linebot\\": "src/"
+            "Raystech\\LINEBot\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Raystech\\Linebot\\Tests\\": "tests"
+            "Raystech\\LINEBot\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Raystech\\Linebot\\LinebotServiceProvider"
+                "Raystech\\LINEBot\\LINEBotServiceProvider"
             ],
             "aliases": {
-                "Linebot": "Raystech\\Linebot\\Facades\\Linebot"
+                "LINEBot": "Raystech\\LINEBot\\Facades\\LINEBot"
             }
         }
     }
