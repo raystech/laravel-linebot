@@ -20,21 +20,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Raysctech\\Linebot\\": "src/"
+            "Raystech\\Linebot\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Raysctech\\Linebot\\Tests\\": "tests"
+            "Raystech\\Linebot\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Raysctech\\Linebot\\LinebotServiceProvider"
+                "Raystech\\Linebot\\LinebotServiceProvider"
             ],
             "aliases": {
-                "Linebot": "Raysctech\\Linebot\\Facades\\Linebot"
+                "Linebot": "Raystech\\Linebot\\Facades\\Linebot"
             }
         }
     }
