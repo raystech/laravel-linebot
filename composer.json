@@ -31,10 +31,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Raysctech\\Linebot\\laravel-linebotServiceProvider"
+                "Raysctech\\Linebot\\LinebotServiceProvider"
             ],
             "aliases": {
-                "laravel-linebot": "Raysctech\\Linebot\\Facades\\laravel-linebot"
+                "laravel-linebot": "Raysctech\\Linebot\\Facades\\Linebot"
             }
         }
     }
