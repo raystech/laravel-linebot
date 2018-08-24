@@ -1,0 +1,41 @@
+{
+    "name": "raystech/laravel-linebot",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piyapan Rodkuen",
+            "email": "piyapannr@gmail.com",
+            "homepage": "https://www.raystech.github.io"
+        }
+    ],
+    "homepage": "https://github.com/raystech/laravel-linebot",
+    "keywords": ["Laravel", "laravel-linebot"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "raystech\\laravel-linebot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "raystech\\laravel-linebot\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "raystech\\laravel-linebot\\laravel-linebotServiceProvider"
+            ],
+            "aliases": {
+                "laravel-linebot": "raystech\\laravel-linebot\\Facades\\laravel-linebot"
+            }
+        }
+    }
+}
