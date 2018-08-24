@@ -23,8 +23,8 @@ class LinebotServiceProvider extends ServiceProvider
 
             // Publishing the configuration file.
             $this->publishes([
-                __DIR__.'/../config/Linebot.php' => config_path('Linebot.php'),
-            ], 'Linebot.config');
+                __DIR__.'/../config/linebot.php' => config_path('linebot.php'),
+            ], 'linebot.config');
 
             // Publishing the views.
             /*$this->publishes([
@@ -53,7 +53,7 @@ class LinebotServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/Linebot.php', 'Linebot');
+        $this->mergeConfigFrom(__DIR__.'/../config/linebot.php', 'linebot');
 
         // Register the service the package provides.
         $this->app->singleton('Linebot', function ($app) {
