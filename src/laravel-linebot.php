@@ -1,8 +1,8 @@
 <?php
 
-namespace raystech\laravel-linebot;
+namespace Raystech\Linebot;
 
-class laravel-linebot
+class Linebot
 {
     // Build wonderful things
 }

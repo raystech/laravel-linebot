@@ -10,7 +10,7 @@
         }
     ],
     "homepage": "https://github.com/raystech/laravel-linebot",
-    "keywords": ["Laravel", "laravel-linebot"],
+    "keywords": ["Laravel", "laravel-linebot", 'linebot'],
     "require": {
         "illuminate/support": "~5"
     },
@@ -20,21 +20,21 @@
     },
     "autoload": {
         "psr-4": {
-            "raystech\\laravel-linebot\\": "src/"
+            "Raysctech\\Linebot\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "raystech\\laravel-linebot\\Tests\\": "tests"
+            "Raysctech\\Linebot\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "raystech\\laravel-linebot\\laravel-linebotServiceProvider"
+                "Raysctech\\Linebot\\laravel-linebotServiceProvider"
             ],
             "aliases": {
-                "laravel-linebot": "raystech\\laravel-linebot\\Facades\\laravel-linebot"
+                "laravel-linebot": "Raysctech\\Linebot\\Facades\\laravel-linebot"
             }
         }
     }

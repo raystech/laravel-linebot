@@ -1,10 +1,10 @@
 <?php
 
-namespace raystech\laravel-linebot;
+namespace Raystech\Linebot;
 
 use Illuminate\Support\ServiceProvider;
 
-class laravel-linebotServiceProvider extends ServiceProvider
+class LinebotServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
@@ -13,8 +13,8 @@ class laravel-linebotServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'raystech');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'raystech');
+        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'Raystech');
+        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'Raystech');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
@@ -23,23 +23,23 @@ class laravel-linebotServiceProvider extends ServiceProvider
 
             // Publishing the configuration file.
             $this->publishes([
-                __DIR__.'/../config/laravel-linebot.php' => config_path('laravel-linebot.php'),
-            ], 'laravel-linebot.config');
+                __DIR__.'/../config/Linebot.php' => config_path('Linebot.php'),
+            ], 'Linebot.config');
 
             // Publishing the views.
             /*$this->publishes([
-                __DIR__.'/../resources/views' => base_path('resources/views/vendor/raystech'),
-            ], 'laravel-linebot.views');*/
+                __DIR__.'/../resources/views' => base_path('resources/views/vendor/Raystech'),
+            ], 'Linebot.views');*/
 
             // Publishing assets.
             /*$this->publishes([
-                __DIR__.'/../resources/assets' => public_path('vendor/raystech'),
-            ], 'laravel-linebot.views');*/
+                __DIR__.'/../resources/assets' => public_path('vendor/Raystech'),
+            ], 'Linebot.views');*/
 
             // Publishing the translation files.
             /*$this->publishes([
-                __DIR__.'/../resources/lang' => resource_path('lang/vendor/raystech'),
-            ], 'laravel-linebot.views');*/
+                __DIR__.'/../resources/lang' => resource_path('lang/vendor/Raystech'),
+            ], 'Linebot.views');*/
 
             // Registering package commands.
             // $this->commands([]);
@@ -53,11 +53,11 @@ class laravel-linebotServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/laravel-linebot.php', 'laravel-linebot');
+        $this->mergeConfigFrom(__DIR__.'/../config/Linebot.php', 'Linebot');
 
         // Register the service the package provides.
-        $this->app->singleton('laravel-linebot', function ($app) {
-            return new laravel-linebot;
+        $this->app->singleton('Linebot', function ($app) {
+            return new Linebot;
         });
     }
 
@@ -68,6 +68,6 @@ class laravel-linebotServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['laravel-linebot'];
+        return ['Linebot'];
     }
 }
