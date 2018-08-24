@@ -1,6 +1,6 @@
 {
     "name": "raystech/laravel-linebot",
-    "description": ":description",
+    "description": "linebot api for latravel",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
         }
     ],
     "homepage": "https://github.com/raystech/laravel-linebot",
-    "keywords": ["Laravel", "laravel-linebot", 'linebot'],
+    "keywords": ["Laravel", "laravel-linebot", "linebot"],
     "require": {
         "illuminate/support": "~5"
     },
