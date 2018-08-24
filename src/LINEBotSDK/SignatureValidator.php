@@ -16,7 +16,7 @@
  * under the License.
  */
 
-namespace Raystech\LINEBot;
+namespace Raystech\LINEBot\LINEBotSDK;
 
 use Raystech\LINEBot\LINEBotSDK\Exception\InvalidSignatureException;
 

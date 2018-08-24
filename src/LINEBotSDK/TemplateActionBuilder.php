@@ -16,7 +16,7 @@
  * under the License.
  */
 
-namespace Raystech\LINEBot;
+namespace Raystech\LINEBot\LINEBotSDK;
 
 /**
  * The interface that has a responsibility to build template action.

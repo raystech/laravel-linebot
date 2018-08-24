@@ -16,7 +16,7 @@
  * under the License.
  */
 
-namespace Raystech\LINEBot;
+namespace Raystech\LINEBot\LINEBotSDK;
 
 /**
  * The interface that represents HTTP client of LINE Messaging API.

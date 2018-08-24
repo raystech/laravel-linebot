@@ -16,7 +16,7 @@
  * under the License.
  */
 
-namespace Raystech\LINEBot;
+namespace Raystech\LINEBot\LINEBotSDK;
 
 /**
  * A class represents API response.
